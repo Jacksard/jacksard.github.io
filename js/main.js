@@ -1,7 +1,3 @@
-$(document).ready(function () {
-
-    $(".explore-btn").click(function(){
-        $(this).addclass(slideInLeft);
-        
-    });
+$(document).ready(function(){
+    $('.aniview').AniView();
 });
