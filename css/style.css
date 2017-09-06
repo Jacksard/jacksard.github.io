@@ -1,0 +1,100 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
+}
+
+.main {
+    
+    color: white;
+    background: url(../img/jupiter-main.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 100%;;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+.title-intro {
+    letter-spacing: 3px;
+    font-family: Teko;
+    font-size: 500%;
+    width: 100%;
+    max-width: none;
+    
+    
+}
+
+
+.explore-btn {
+    font-family: Jaldi;
+    color:orange;
+    font-size: 175%;
+    max-width: none;
+    text-align: center;
+    border: solid orange;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    animation-delay: 1s;
+    
+}
+
+.intro {
+    text-align:center;
+    background-color:black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    
+   
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.item1 {
+    order:2;
+}
+.item2{
+    order:1;
+    animation-delay: 2s;
+}
+
+
+p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.first-img {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
